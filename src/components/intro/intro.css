@@ -1,0 +1,12 @@
+.i{
+    display: flex;
+    height: 100vh;
+}
+
+.i-left{
+    flex: 2;
+}
+
+.i-right{
+    flex: 1; 
+}
