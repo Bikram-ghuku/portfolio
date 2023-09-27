@@ -1,5 +1,6 @@
 import React from 'react'
 import './intro.css'
+import img from '../../img/me.png'
 function Intro() {
   return (
     <div className='i'>
@@ -9,17 +10,21 @@ function Intro() {
                 <h1 className="i-name">Bikram Ghuku</h1>
                 <div className="i-title">
                   <div className="i-title-wrapper">
-                    <div className="i-title-item">Undergrad Student</div>
+                    <div className="i-title-item">Undergraduate Student</div>
                     <div className="i-title-item">Web Developer</div>
-                    <div className="i-title-item">Competitive programmer</div>
+                    <div className="i-title-item">Competitve Programmer</div>
                   </div>
                 </div>
                 <p className="i-desc">
-                Hello, I'm Bikram Ghuku, a Computer Science Engineering undergrad currently pursuing my studies at the prestigious Indian Institute of Technology, Kharagpur. With a strong foundation in the MERN stack and proficiency in multiple programming languages, including JavaScript and Python, I am excited about the endless possibilities in the world of technology.<br/><br/>
+                Hello, I'm Bikram Ghuku, a Computer Science Engineering undergrad currently pursuing my studies at the prestigious Indian Institute of Technology, Kharagpur. <br/><br/>
                 </p>
             </div>
         </div>
-        <div className="i-right">Right</div>
+        <div className="i-right">
+          <div className="i-bg">
+            <img src={img} alt="" className="i-img" />
+          </div>
+        </div>
     </div>
   )
 }
