@@ -1,0 +1,52 @@
+.p{
+    font-family: 'poppins', sans-serif;
+    height: 100vh;
+    background-color: #111;
+}
+
+.p-title{
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    padding-top: 10vh;
+    font-weight: 600;
+}
+
+.p-wrapper{
+    overflow: hidden;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+}
+
+.p-car{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+
+
+
+.p-car-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30vw;
+    color:white;
+}
+
+.p-car-inner{
+    height: 75vh;
+    background-color: #222;
+    border: #fff solid 1px;
+}
+
+
+.p-car-img{
+    width: 20vw;
+    height: 20vw;
+}
