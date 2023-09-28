@@ -1,0 +1,52 @@
+.e{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #111;
+}
+
+.e-head{
+    text-align: center;
+    color: #fff;
+    padding-top: 10vh;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.e-wrapper{
+    padding-left: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    flex-direction: column;
+    
+}
+
+.e-card{
+    height: 30vh;
+    padding: 0 0px 0 20px;
+    position: relative;
+    border-left: 2px solid #688eff;
+    color: #fff;
+    width: 40vw;
+}
+
+.e-card::before{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: -10px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid #688eff;
+    background-color: #111;
+}
+
+@media screen and (max-width : 600px) {
+    .e-wrapper{
+        padding-left: 0;
+        padding-top: 5%;
+        font-size: 0.5rem;
+    }
+}
