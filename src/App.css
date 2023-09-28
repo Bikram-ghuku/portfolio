@@ -1,3 +1,7 @@
+.App{
+  scroll-snap-type: y mandatory;
+}
+
 /* .App {
   text-align: center;
 }
