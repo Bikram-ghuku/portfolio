@@ -94,6 +94,13 @@
         width: 100%;
     }
 
+    .a-right{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .a-card {
         height: 30vh;
     }

@@ -1,5 +1,5 @@
 import './about.css';
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram } from 'react-icons/ai';
 import { FaHackerrank } from 'react-icons/fa';
 import { SiCodeforces } from 'react-icons/si';
 import React from 'react'
@@ -27,6 +27,11 @@ function About() {
                 Outside of the digital realm, I'm a chess enthusiast, always eager for a strategic match.
             </p>
             <div className="a-social">
+                <div className="instagram">
+                    <a href="https://www.instagram.com/bikramghuku05/" className="a-icon">
+                        <AiOutlineInstagram />
+                    </a>
+                </div>
                 <div className="linkedIn">
                     <a href="https://www.linkedin.com/in/bikram-ghuku/" className="a-icon">
                         <AiFillLinkedin />
