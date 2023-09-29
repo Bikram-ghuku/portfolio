@@ -11,7 +11,7 @@ function Education2() {
         </h1>
         <div className="e-wrapper">
             {education_data.map((data, key) => (
-                <div className="e-card">
+                <div className="e-card" key = {data.id}>
                     <h2 className='e-card-titel'>{data.Name}</h2>
                     <p className='e-card-desc'>{data.Desc}</p>
                     <h3 className='e-card-subtitle'>{data.Years}</h3>
