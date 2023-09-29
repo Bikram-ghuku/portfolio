@@ -60,6 +60,6 @@ export const projects_data=[
         about: "MERN stack application to sell and buy food",
         status: "working",
         tech: "React, MongoDB, Express, NodeJs, MaterialsUI, Bootstrap",
-        img: ""
+        img: "https://i.imgur.com/r0wz9Qm.png"
     }
 ]
