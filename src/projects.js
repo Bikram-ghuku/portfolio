@@ -48,7 +48,7 @@ export const projects_data=[
         id:7,
         Name:"ThinkPrepp",
         url:"https://github.com/Bikram-ghuku/nQuest",
-        about:"Open Source assessment solution",
+        about:"Open Source assessment solution which supports Multiple correct MCQ, Single Correct MCQ, Integer",
         status:"Complete",
         tech: "HTML, CSS, Javascript",
         img: "https://github.com/Bikram-ghuku/nQuest/raw/main/repo_images/smcq_ques.png"
