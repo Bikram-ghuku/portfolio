@@ -12,14 +12,14 @@ function Projects() {
         if(windowWidth > 600){
             setCurrentSlide(currentSlide === Math.floor(projects_data.length/3)  ? 0 : currentSlide + 1);
         }else{
-            setCurrentSlide(currentSlide ===  projects_data.length - 1 ? 0  : currentSlide + 1);
+            setCurrentSlide(currentSlide ===  projects_data.length - 1 ? 0  : currentSlide + .93);
         }
     }
     const prevSlide = () => {
         if(windowWidth > 600){
             setCurrentSlide(currentSlide === 0 ? Math.floor(projects_data.length/3)  : currentSlide - 1);
         }else{
-            setCurrentSlide(currentSlide === 0 ? projects_data.length - 1  : currentSlide - 1);
+            setCurrentSlide(currentSlide === 0 ? projects_data.length - 1  : currentSlide - .93);
         }
     }
 

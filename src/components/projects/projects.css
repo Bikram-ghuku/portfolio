@@ -72,11 +72,14 @@
     float: left;   
 }
 @media screen and (max-width: 600px){
-    .p-car{
-        flex-direction: row;
-        overflow: hidden;
+
+    .p-title{
+        padding-top: 5vh;    
     }
 
+    .p-car-wrap{
+        width: 80vw;
+    }
     .p-car-item{
         width: 80vw;
     }
@@ -87,6 +90,6 @@
     }
 
     .p-car-wrap{
-        padding-left: 10vw;
+        padding-left: 9vw;
     }
 }
