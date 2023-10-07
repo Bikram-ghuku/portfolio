@@ -24,6 +24,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    transition-delay: 1s;
 }
  
 .p-car-item{

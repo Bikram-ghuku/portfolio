@@ -29,27 +29,27 @@ function About() {
             <div className="a-social">
                 <div className="instagram">
                     <a href="https://www.instagram.com/bikramghuku05/" className="a-icon">
-                        <AiOutlineInstagram />
+                        <AiOutlineInstagram className='a-icons' size={30}/>
                     </a>
                 </div>
                 <div className="linkedIn">
                     <a href="https://www.linkedin.com/in/bikram-ghuku/" className="a-icon">
-                        <AiFillLinkedin />
+                        <AiFillLinkedin className='a-icons' size={30}/>
                     </a>
                 </div>
                 <div className="github">
                     <a href="https://www.github.com/bikram-ghuku" className="a-icon">
-                        <AiFillGithub />
+                        <AiFillGithub className='a-icons' size={30}/>
                     </a>
                 </div>
                 <div className="hackerrank">
                     <a href="https://www.hackerrank.com/bikramghuku05" className="a-icon">
-                        <FaHackerrank />
+                        <FaHackerrank className='a-icons' size={30}/>
                     </a>
                 </div>
                 <div className="cf">
                     <a href="https://codeforces.com/profile/bikramghuku" className="a-icon">
-                        <SiCodeforces />
+                        <SiCodeforces className='a-icons' size={30}/>
                     </a>
                 </div>
             </div>

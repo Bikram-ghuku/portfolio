@@ -76,11 +76,20 @@
 }
 
 .a-social{
-    height: 2vh;
+    height: 20vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 20vh;
+    width: 40vh;
+}
+
+.a-icons{
+    height: 100px;
+}
+
+.a-icons:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
 }
 
 @media screen and (max-width:600px) {
