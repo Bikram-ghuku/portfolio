@@ -35,8 +35,11 @@
 }
 
 .sk-img{
-    width: 7vw;
-    height: 15vh;
+    display: block;
+    max-width: 7vw;
+    max-height: 15vh;
+    height: auto;
+    width: auto;
 }
 
 .sk-img-cont{
