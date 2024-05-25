@@ -34,13 +34,17 @@ function Projects() {
                             <div className="p-car-item">
                                 <div className="p-car-inner">
                                     <h1>{data.Name}</h1>
-                                    <img src={data.img} alt="" className='p-car-img'/>
+                                    <div className='p-car-img-wrap'>
+                                      <img src={data.img} alt="" className='p-car-img'/>
+                                    </div>
                                     <p>{data.about}</p>
                                     <a href={data.url}>
                                         <button >View Project</button>
                                     </a>
                                     <br/><br/>
-                                    Tech Used: {data.tech}
+                                    <div className='p-car-tech'>
+                                        Tech Used: {data.tech}
+                                    </div>
                                 </div>
                             </div>
                         </div>

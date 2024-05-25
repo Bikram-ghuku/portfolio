@@ -7,8 +7,7 @@
 .p-title{
     text-align: center;
     color: #fff;
-    font-size: 3rem;
-    padding-top: 10vh;
+    font-size: 5rem;
     font-weight: 600;
 }
 
@@ -33,7 +32,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    max-width: 30vw;
     width: 30vw;
+    height: 75vh;
     color:white;
 }
 
@@ -47,9 +48,25 @@
     padding-right: 3vw;
 }
 
+.p-car-img-wrap{
+  width: full;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vw;
+}
+
 .p-car-img{
-    width: 20vw;
-    height: 20vw;
+    display: block;
+    max-width: 20vw;
+    max-height: 20vw;
+    width: auto;
+    height: auto;
+}
+
+.p-car-tech{
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .p-nav{
