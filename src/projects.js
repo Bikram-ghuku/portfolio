@@ -61,5 +61,14 @@ export const projects_data=[
         status: "working",
         tech: "React, MongoDB, Express, NodeJs, MaterialsUI, Bootstrap",
         img: "https://i.imgur.com/r0wz9Qm.png"
+    },
+    {
+        id: 9,
+        Name: "SyncChat",
+        url: "https://sync-chat-web.vercel.app/",
+        about: "Encrypted end-to-end chat application using MERN",
+        status: "Deployed, working",
+        tech: "Next, PostgresSQL, NodeJS, TailwindCSS, Socket.io, Prisma, JWT",
+        img: "https://sync-chat-web.vercel.app/_next/image?url=%2Fdemo.png&w=1080&q=75"
     }
 ]
