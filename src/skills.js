@@ -70,4 +70,10 @@ export const skills_data = [
         Name: "Github",
         url: "https://github.com/", 
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1280px-Octicons-mark-github.svg.png"
+    },
+    {
+        id: 14,
+        Name: "Docker",
+        url:"https://www.docker.com/",
+        img: "https://1000logos.net/wp-content/uploads/2021/11/Docker-Logo-500x281.png"
     }]
